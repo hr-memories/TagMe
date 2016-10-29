@@ -48,6 +48,13 @@ export default class Login extends React.Component {
     }
   }
 
+  clearFields() {
+    this.setState({
+      username: '',
+      password: ''
+    });
+  }
+
   login() {
     // check if username exits (make fetch to database) and check password to see if matches
     var context = this;
@@ -65,6 +72,7 @@ export default class Login extends React.Component {
       })
       .then(function(response) {
         if (response.status === 201) {
+          context.clearFields();
           var token = JSON.parse(response._bodyText).id_token;
           return context._onValueChange(STORAGE_KEY, token)
             .then(function() {
@@ -95,6 +103,7 @@ export default class Login extends React.Component {
       })
       .then(function(response) {
         if (response.status === 201) {
+          context.clearFields();
           var token = JSON.parse(response._bodyText).id_token;
           return context._onValueChange(STORAGE_KEY, token)
             .then(function() {
