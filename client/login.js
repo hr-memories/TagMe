@@ -142,12 +142,14 @@ export default class Login extends React.Component {
           <List>
             <ListItem>
               <InputGroup>
-                  <Input placeholder='USERNAME' onChangeText={(text) => this.setState({username: text})}/>
+                  <Input placeholder='USERNAME' onChangeText={(text) => this.setState({username: text})} 
+                  onSubmitEditing={this.clearFields}/>
               </InputGroup>
             </ListItem>
             <ListItem>
               <InputGroup>
-                  <Input placeholder='PASSWORD' secureTextEntry={true} onChangeText={(text) => this.setState({password: text})} />
+                  <Input placeholder='PASSWORD' secureTextEntry={true} onChangeText={(text) => this.setState({password: text})}
+                  onSubmitEditing={this.clearFields}/>
               </InputGroup>
             </ListItem>
           </List>
