@@ -32,6 +32,8 @@ Photo and video journaling with automated tagging
 
 ### Installing Dependencies
 
+After you install things, it should run smoothly :). 
+
 From within the root directory:
 
 ```sh
@@ -43,14 +45,15 @@ From inside the client folder:
 ```sh
 npm install
 ```
+1. Download Xcode https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
-Download the Exponent Development Environment (XDE) [for Mac](https://xde-updates.exponentjs.com/download/mac) or [for Windows](https://xde-updates.exponentjs.com/download/win32)
+2. Download the Exponent Development Environment (XDE) [for Mac](https://xde-updates.exponentjs.com/download/mac) or [for Windows](https://xde-updates.exponentjs.com/download/win32)
 
-Download watchman (https://docs.getexponent.com/versions/v10.0.0/introduction/installation.html at bottom)
+3. Download watchman (https://docs.getexponent.com/versions/v10.0.0/introduction/installation.html at bottom)
 
-Once XDE is installed, go to 'open project' and choose the client folder
+4. Once XDE is installed, go to 'open project' and choose the client folder
 
-[Add environment variables for Amazon S3](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-environment)
+5. [Add environment variables for Amazon S3](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-environment)
 
 ### Roadmap
 
