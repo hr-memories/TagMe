@@ -61,6 +61,7 @@ View the project roadmap [here](https://github.com/hr-memories/greenfield/issues
 
 Issues to be aware of: 
 1. async issue with captions and tags rendering on client side when sometimes the caption will be taken as a tag (becuase we use the time of response from the server to render it). 
+
 2. not encrypting passwords
 
 ## Contributing
