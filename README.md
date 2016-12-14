@@ -1,7 +1,10 @@
 # Project Name
 TagMe
 
-Photo and video journaling with automated tagging
+Photo and video journaling with automated tagging. Download from the App Store at https://appsto.re/us/WNm5fb.i
+
+![screenshot1](/screenshots/screenshot_home.png?raw=true "Screenshot - Home")
+![screenshot2](/screenshots/screenshot_memories.png?raw=true "Screenshot - Memories")
 
 ![screenshot1](/screenshots/screenshot_home.png?raw=true "Screenshot - Home")
 ![screenshot2](/screenshots/screenshot_memories.png?raw=true "Screenshot - Memories")
