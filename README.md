@@ -3,6 +3,9 @@ TagMe
 
 Photo and video journaling with automated tagging
 
+![screenshot1](/screenshots/screenshot_home.png?raw=true "Screenshot - Home")
+![screenshot2](/screenshots/screenshot_memories.png?raw=true "Screenshot - Memories")
+
 ## Team
 
   - __Product Owner__: Bobby Wei
